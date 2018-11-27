@@ -4,10 +4,6 @@ class User_Account(models.Model):
   username = models.CharField(max_length=20)
   username_lower = models.CharField(max_length=20)
 
-class User_Session(models.Model):
-  user_id = models.BigIntegerField()
-  creation_time = models.BigIntegerField()
-
 class Summoner(models.Model):
   account_id = models.BigIntegerField()
   summoner_id = models.BigIntegerField()

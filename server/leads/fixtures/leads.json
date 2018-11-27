@@ -1,4 +1,4 @@
-{
+[
   {
     "model": "leads.user_account",
     "pk": 1,
@@ -13,22 +13,6 @@
     "fields": {
       "username": "Talzoc",
       "username_lower": "talzoc"
-    }
-  },
-  {
-    "model": "leads.user_session",
-    "pk": 1,
-    "fields": {
-      "user_id": "12345",
-      "creation_time": "2018-11-27 19:00:05"
-    }
-  },
-  {
-    "model": "leads.user_session",
-    "pk": 2,
-    "fields": {
-      "user_id": "12346",
-      "creation_time": "2018-11-27 19:00:06"
     }
   },
   {
@@ -55,4 +39,4 @@
       "damage_dealt_to_turrets": "12449"
     }
   }
-}
+]
