@@ -26,21 +26,21 @@ python will refer to python3 when executing commands
 
 To clear the database:
 
-`psql`
+1. `psql`
 
-`drop database "insert_database_name"`
+2. `drop database "insert_database_name";`
 
-`create database "insert_database_name"`
+3. `create database "insert_database_name";`
 
-go to migrations folder in "server/leads/migrations/" and delete all files except __init__.py
+4. go to migrations folder in "server/leads/migrations/" and delete all files except __init__.py
 
 To recreate the tables and fill in with fixtures:
 
-`python manage.py makemigrations leads`
+5. `python manage.py makemigrations leads`
 
-`python manage.py migrate`
+6. `python manage.py migrate`
 
-`python manage.py loaddata leads`
+7. `python manage.py loaddata leads`
 
 # Tech
 1. React
