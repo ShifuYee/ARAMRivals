@@ -1,5 +1,58 @@
 {
   {
-    
+    "model": "leads.user_account",
+    "pk": 1,
+    "fields": {
+      "username": "Oneshotks",
+      "username_lower": "oneshotks"
+    }
+  },
+  {
+    "model": "leads.user_account",
+    "pk": 2,
+    "fields": {
+      "username": "Talzoc",
+      "username_lower": "talzoc"
+    }
+  },
+  {
+    "model": "leads.user_session",
+    "pk": 1,
+    "fields": {
+      "user_id": "12345",
+      "creation_time": "2018-11-27 19:00:05"
+    }
+  },
+  {
+    "model": "leads.user_session",
+    "pk": 2,
+    "fields": {
+      "user_id": "12346",
+      "creation_time": "2018-11-27 19:00:06"
+    }
+  },
+  {
+    "model": "leads.summoner",
+    "pk": 1,
+    "fields": {
+      "account_id": "58008",
+      "summoner_id": "54321",
+      "summoner_name": "Oneshotks",
+      "damage_dealt": "387430284",
+      "damage_taken": "394820439",
+      "damage_dealt_to_turrets": "17239"
+    }
+  },
+  {
+    "model": "leads.summoner",
+    "pk": 2,
+    "fields": {
+      "account_id": "58009",
+      "summoner_id": "54320",
+      "summoner_name": "Talzoc",
+      "damage_dealt": "392098474",
+      "damage_taken": "285039673",
+      "damage_dealt_to_turrets": "12449"
+    }
   }
 }
